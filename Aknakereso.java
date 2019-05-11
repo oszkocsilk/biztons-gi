@@ -3,14 +3,18 @@ package sample;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 
-
+/**
+ * Makes the whole table with bombs.
+ */
 public class Aknakereso implements mezo{
 
 
     private static int buttonLayout= 50;
     private Akna Leteszi =new Akna();
 
-
+    /**
+     * Makes  buttons, than puts the bombs down.
+     */
     public Aknakereso() {
 
         for (int i=0;i<mezo[0].length;i++)

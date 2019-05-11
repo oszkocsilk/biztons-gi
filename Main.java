@@ -7,8 +7,8 @@ package sample;
 public class Main extends Application {
 
     /**
-     * @param primaryStage first window,which you can see
-     * @throws Exception if exception occured
+     * @param primaryStage first window,which you can see.
+     * @throws Exception if exception occured.
      */
 
     @Override
@@ -25,7 +25,7 @@ public class Main extends Application {
     }
 
     /**
-     * @param args is not used
+     * @param args is not used.
      */
     public static void main(String[] args) {
         launch(args);

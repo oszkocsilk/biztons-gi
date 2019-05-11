@@ -3,6 +3,9 @@ package sample;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 
+/**
+ * Giving the size of the bottuns.
+ */
 public interface mezo {
 
     int width=30;

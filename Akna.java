@@ -1,15 +1,23 @@
+/**
+ * the package where the program is.
+ */
+
 package sample;
 
 import java.util.ArrayList;
 
-
+/**
+ * Makes the given number of bombs.
+ */
 
 public class Akna implements mezo{
 
     private ArrayList<Integer>list = new ArrayList<Integer>();
     private double NumberOfBombs=2.0;
 
-
+    /**
+     * Places the number of bombs that given by @NumberOfBombs, than counts the bombs in the neighbours.
+     */
 
     public void aknák() {
         for (int i = 0; i < counter[0].length; i++) {
@@ -55,7 +63,7 @@ public class Akna implements mezo{
 
     /**
      *
-     * @return gives the number of bombs
+     * @return gives the number of bombs.
      */
     public double getNumberOfBombs() {
         return NumberOfBombs;
